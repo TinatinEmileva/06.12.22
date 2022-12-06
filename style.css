@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: gainsboro;
+}
+.topbar{
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px  brown;
+  display: flex;
+}
+.topbar.topbar-dark{
+  background-color: brown;
+  color: white;
+}
+.topbar.topbar-beeline{
+  background-color: yellow;
+  color: black;
+}
+.topbar.topbar-o{
+  background-color: pink;
+  color: white;
+}
+.topbar.topbar-mega{
+  background-color: green;
+  color: purple;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
