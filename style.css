@@ -4,6 +4,7 @@
 body{
   margin: 0;
   background-color: gainsboro;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .topbar{
   background-color: white;
@@ -34,4 +35,70 @@ body{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.nav .nav-item .nav-link{
+  display: block;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+color: blue;
+}
+.nav .nav-item .nav-link:hover{
+  color: black;
+  
+}
+.nav .nav-item.active .nav-link{
+  background-color: blue;
+  color: white;
+}
+.nav.nav-dark .nav-item .nav-link{
+  color: white;
+}
+.nav.nav-dark .nav-item .nav-link:hover{
+  color:rgb(173, 173, 173);
+}
+.nav.nav-dark .nav-item.active .nav-link.{
+  color: black;
+}
+.nav.nav-beeline .nav-item .nav-link{
+  color: rgb(71, 71, 71);
+  text-transform: uppercase;
+}
+.nav.nav-beeline .nav-item .nav-link:hover{
+  color:rgb(173, 173, 173);
+}
+.nav.nav-beeline .nav-item.active .nav-link{
+  color: yellow;
+  background-color: black;
+}
+.nav.nav-o .nav-item .nav-link{
+  color: rgb(221, 63, 155);
+}
+.nav.nav-o .nav-item .nav-link:hover{
+  color:rgb(32, 31, 31);
+}
+.nav.nav-o .nav-item.active .nav-link{
+  color: rgb(245, 248, 245);
+  background-color: rgb(241, 62, 203);
+}
+.nav.nav-mega .nav-item .nav-link{
+  color: rgb(78, 177, 54);
+}
+.nav.nav-mega .nav-item .nav-link:hover{
+  color:rgb(32, 31, 31);
+}
+.nav.nav-mega .nav-item.active .nav-link{
+  color: rgb(18, 209, 18);
+  background-color: rgb(160, 9, 160);
+}
+.nav.nav-skew .nav-item .nav-link{
+  border-radius: 0;
+  color: tomato;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+}
+.nav.nav-skew .nav-item .nav-link:hover{
+  background: -moz-linear-gradient();
 }
